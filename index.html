@@ -8,9 +8,9 @@
     <title>Tìm lại Chính Mình</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/ekko-lightbox.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.js">
 
     <link rel="icon" href="http://www.essence-process.com/wp-content/themes/essence/images/favicon.png" type="image/x-icon">
 
@@ -20,12 +20,135 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <style>
+        body {
+          font-size: 18px;
+        }
+
+        .jumbotron {
+          background-color: white;
+        }
+
+
+
+        .introline {
+          font-size: 20px;
+        }
+
+        .emphasize-color {
+          color: #b4c933;
+        }
+
+        .very-emphasize-color {
+          color: #e74c3c;
+        }
+
+        .chk01 {
+            background: url(http://kong.vn/essencevietnam/img/chk01.png) left center no-repeat !important;
+        }
+
+        .chk02 {
+            background: url(http://kong.vn/essencevietnam/img/chk02.png) left center no-repeat !important;
+        }
+
+        .chk03 {
+            background: url(http://kong.vn/essencevietnam/img/chk03.png) left center no-repeat !important;
+        }
+
+        .list_check {
+            /*width: 90%;*/
+            /*padding-left: 60px;*/
+        }
+
+        ul {
+          list-style: none;
+        }
+
+        .list_check li{
+            font-size: 22px;
+            
+            text-align: justify;
+            line-height: 1.8em;
+            padding: 6px 0 6px 28px;
+            padding-left: 45px;
+        }
+
+        .image_and_text {position: relative;} 
+
+        .image_and_text .col {z-index: 1; top: 0; right: 0;}
+
+        /* Small devices (tablets, 768px and up) */
+        @media (min-width: @screen-sm-min) { 
+          .image_and_text .col {position: relative;}
+         }
+
+        /* Medium devices (desktops, 992px and up) */
+        @media (min-width: @screen-md-min) { 
+          .image_and_text .col {position: absolute;}
+        }
+
+        /* Large devices (large desktops, 1200px and up) */
+        @media (min-width: @screen-lg-min) { 
+          .image_and_text .col {position: absolute;}
+          
+        }
+
+
+
+
+        .slogan-box {
+          background-color: rgba(255,255,255,0.5);
+          padding: 60px 36px 24px;
+          /*-webkit-box-shadow: 2px 2px 1px #ddd;
+          box-shadow: 2px 2px 1px #ddd;*/ 
+         position: relative;
+        }
+
+        .testimonial {
+          padding-top: 30px;
+          padding-bottom: 30px;
+          text-align: justify;
+        }
+
+        .testimonial-author {
+          width: 140px;
+            height: 140px;
+          border:6px solid #b4c933;
+        }
+
+        .image-cropper {
+          width: 140px;
+            height: 140px;    
+            position: relative;
+            overflow: hidden;
+            border-radius: 50%;
+        }
+
+        img {
+            display: inline;
+            margin: 0 auto;
+            height: 100%;
+            width: auto;
+        }
+
+        .action-btn {
+          padding: 30px;
+        }
+
+        footer {
+            background-color: #e6e6e6;
+            font-size: 14px;
+        }
+    </style>
+    <!-- End Of Styling -->
   </head>
   <body>
 
 <section>    
     <div>
-      <img class="center-block img-responsive" src="images/tlcm-banner.png"/>
+      <img class="center-block img-responsive" src="http://kong.vn/essencevietnam/images/tlcm-banner.png"/>
     </div>
 
     
@@ -71,7 +194,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
 
 
         <div class="container text-center">
-      <a href="https://goo.gl/yhst1s" target="_blank"><img src="img/reg-btn.jpg"  class='action-btn  img-responsive'></a>
+      <a href="https://goo.gl/yhst1s" target="_blank"><img src="http://kong.vn/essencevietnam/img/reg-btn.jpg"  class='action-btn  img-responsive'></a>
     </div>
 
 <br/>
@@ -95,7 +218,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
       <div class="row">
 
         <div class="left-column col-xs-12 col-sm-12 col-md-5 col-lg-5">
-          <img src="images/menis.jpg" class="img-responsive">
+          <img src="http://kong.vn/essencevietnam/images/menis.jpg" class="img-responsive">
         </div>
 
         <div class="right-column col-xs-12 col-sm-12 col-md-7 col-lg-7">
@@ -182,7 +305,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
 
 
     <div class="container text-center">
-      <a href="https://goo.gl/yhst1s" target="_blank"><img src="img/reg-btn.jpg"  class='action-btn  img-responsive'></a>
+      <a href="https://goo.gl/yhst1s" target="_blank"><img src="http://kong.vn/essencevietnam/img/reg-btn.jpg"  class='action-btn  img-responsive'></a>
     </div>
       <br/>  <br/>  <br/>
   </section>
@@ -218,7 +341,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
   </section> -->
 
 
-    <section id="essence-class" class="content-section text-center" style="height:400px;background-image:url(./images/courses_new-1.jpg);">
+    <section id="essence-class" class="content-section text-center" style="height:400px;background-image:url(http://kong.vn/essencevietnam/images/courses_new-1.jpg);">
 
     </section>
 
@@ -279,7 +402,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
     
     <!-- <h3>Hãy nắm lấy cơ hội và tham gia cùng thầy Menis trong 3 ngày học chuyên sâu</h3> -->
     <div class="container text-center">
-      <a href="https://goo.gl/yhst1s" target="_blank"><img src="img/reg-btn.jpg" class='action-btn img-responsive'></a>
+      <a href="https://goo.gl/yhst1s" target="_blank"><img src="http://kong.vn/essencevietnam/img/reg-btn.jpg" class='action-btn img-responsive'></a>
     </div>
 
 
@@ -293,7 +416,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
 <section class="content-section text-center">
   <!-- <h3>Những nụ cười Essence được ghi lại trong khóa học</h3> -->
   <br/>
-  <img src="./images/smiles_of_essence.jpg" class="img-responsive">
+  <img src="http://kong.vn/essencevietnam/images/smiles_of_essence.jpg" class="img-responsive">
 
 </section>
 
@@ -309,7 +432,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
       <div class="testimonial  row">
 
         <div class="pull-left" style="padding-right:30px;">
-          <img src="images/duycuong.jpg" alt="Duy Cuong" class="testimonial-author image-cropper">
+          <img src="http://kong.vn/essencevietnam/images/duycuong.jpg" alt="Duy Cuong" class="testimonial-author image-cropper">
         </div>
         <div>
           
@@ -321,7 +444,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
 
       <div class="testimonial row text-right">
         <div class="pull-right" style="padding-left:30px;">
-          <img src="images/trangdao.jpg" alt="Trang Dao" align="right" class="testimonial-author image-cropper">
+          <img src="http://kong.vn/essencevietnam/images/trangdao.jpg" alt="Trang Dao" align="right" class="testimonial-author image-cropper">
         </div>
         <div>
           <strong>Đào Thanh Trang</strong> - Giám đốc Marketing công ty CocaCola.<br/> 
@@ -332,7 +455,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
       <div class="testimonial row">
 
         <div class="pull-left" style="padding-right:30px;">
-          <img src="images/hanguyen.jpg" alt="Ha Nguyen" class="testimonial-author image-cropper">
+          <img src="http://kong.vn/essencevietnam/images/hanguyen.jpg" alt="Ha Nguyen" class="testimonial-author image-cropper">
         </div>
         <div>
           
@@ -344,7 +467,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
 
       <div class="testimonial row text-right">
         <div class="pull-right" style="padding-left:30px;">
-          <img src="images/trangtran.jpg" alt="Trang Tran" align="right" class="testimonial-author image-cropper">
+          <img src="http://kong.vn/essencevietnam/images/trangtran.jpg" alt="Trang Tran" align="right" class="testimonial-author image-cropper">
         </div>
         <div>
           <strong>Trần Thị Bích Trang</strong> - Giám đốc Marketing California Fitness.<br/> 
@@ -379,7 +502,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
         <div class="testimonial row">
 
         <div class="pull-left" style="padding-right:30px;">
-          <img src="images/bichhang.jpg" alt="Bich Hang" class="testimonial-author image-cropper">
+          <img src="http://kong.vn/essencevietnam/images/bichhang.jpg" alt="Bich Hang" class="testimonial-author image-cropper">
         </div>
         <div>
           
@@ -417,7 +540,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
       <p>
       Nếu bạn cũng đang tìm kiếm hạnh phúc và thành công cho chính bản thân mình, <strong>hãy cho mình một cơ hội</strong>, để có thể trải nghiệm những điều tuyệt vời trong chương trình này. <br/><strong>Hãy cho mình một cơ hội</strong>, để cảm nhận được sự hạnh phúc ở bên trong bạn.
     </p>
-      <a href="https://goo.gl/yhst1s" target="_blank"><img src="img/reg-btn.jpg" class='action-btn  img-responsive'></a>
+      <a href="https://goo.gl/yhst1s" target="_blank"><img src="http://kong.vn/essencevietnam/img/reg-btn.jpg" class='action-btn  img-responsive'></a>
     </div>
 
 
@@ -433,21 +556,21 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
       <div class="row">
           <div class="col-md-offset-0 col-md-12">
               <div class="row">
-                  <a href="./images/gallery/images/tim-lai-chinh-minh-2015-01.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Khóa Tìm lại chính mình Nâng cao 8/2015" class="col-sm-3">
-                      <img src="./images/gallery/thumbnails/tim-lai-chinh-minh-2015-01-th.jpg" class="img-responsive">
+                  <a href="http://kong.vn/essencevietnam/images/gallery/images/tim-lai-chinh-minh-2015-01.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="Khóa Tìm lại chính mình Nâng cao 8/2015" class="col-sm-3">
+                      <img src="http://kong.vn/essencevietnam/images/gallery/thumbnails/tim-lai-chinh-minh-2015-01-th.jpg" class="img-responsive">
                   </a>
 
-                  <a href="./images/gallery/images/tim-lai-chinh-minh-2015-02.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
-                      <img src="./images/gallery/thumbnails/tim-lai-chinh-minh-2015-02-th.jpg" class="img-responsive">
+                  <a href="http://kong.vn/essencevietnam/images/gallery/images/tim-lai-chinh-minh-2015-02.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
+                      <img src="http://kong.vn/essencevietnam/images/gallery/thumbnails/tim-lai-chinh-minh-2015-02-th.jpg" class="img-responsive">
                   </a>
 
-                  <a href="./images/gallery/images/tim-lai-chinh-minh-2015-03.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
-                      <img src="./images/gallery/thumbnails/tim-lai-chinh-minh-2015-03-th.jpg" class="img-responsive">
+                  <a href="http://kong.vn/essencevietnam/images/gallery/images/tim-lai-chinh-minh-2015-03.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
+                      <img src="http://kong.vn/essencevietnam/images/gallery/thumbnails/tim-lai-chinh-minh-2015-03-th.jpg" class="img-responsive">
                   </a>
 
 
-                  <a href="./images/gallery/images/tim-lai-chinh-minh-2015-04.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
-                      <img src="./images/gallery/thumbnails/tim-lai-chinh-minh-2015-04-th.jpg" class="img-responsive">
+                  <a href="http://kong.vn/essencevietnam/images/gallery/images/tim-lai-chinh-minh-2015-04.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
+                      <img src="http://kong.vn/essencevietnam/images/gallery/thumbnails/tim-lai-chinh-minh-2015-04-th.jpg" class="img-responsive">
                   </a>
 
 
@@ -455,22 +578,22 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
 
               </div>
               <div class="row">
-                  <a href="./images/gallery/images/tim-lai-chinh-minh-2015-05.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
-                      <img src="./images/gallery/thumbnails/tim-lai-chinh-minh-2015-05-th.jpg" class="img-responsive">
+                  <a href="http://kong.vn/essencevietnam/images/gallery/images/tim-lai-chinh-minh-2015-05.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
+                      <img src="http://kong.vn/essencevietnam/images/gallery/thumbnails/tim-lai-chinh-minh-2015-05-th.jpg" class="img-responsive">
                   </a>
 
-                  <a href="./images/gallery/images/tim-lai-chinh-minh-2015-06.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
-                      <img src="./images/gallery/thumbnails/tim-lai-chinh-minh-2015-06-th.jpg" class="img-responsive">
+                  <a href="http://kong.vn/essencevietnam/images/gallery/images/tim-lai-chinh-minh-2015-06.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
+                      <img src="http://kong.vn/essencevietnam/images/gallery/thumbnails/tim-lai-chinh-minh-2015-06-th.jpg" class="img-responsive">
                   </a>
-                  <a href="./images/gallery/images/tim-lai-chinh-minh-2015-07.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
-                      <img src="./images/gallery/thumbnails/tim-lai-chinh-minh-2015-07-th.jpg" class="img-responsive">
+                  <a href="http://kong.vn/essencevietnam/images/gallery/images/tim-lai-chinh-minh-2015-07.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
+                      <img src="http://kong.vn/essencevietnam/images/gallery/thumbnails/tim-lai-chinh-minh-2015-07-th.jpg" class="img-responsive">
                   </a>
-                  <a href="./images/gallery/images/tim-lai-chinh-minh-2015-08.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
-                      <img src="./images/gallery/thumbnails/tim-lai-chinh-minh-2015-08-th.jpg" class="img-responsive">
+                  <a href="http://kong.vn/essencevietnam/images/gallery/images/tim-lai-chinh-minh-2015-08.jpg" data-toggle="lightbox" data-gallery="multiimages" data-title="" class="col-sm-3">
+                      <img src="http://kong.vn/essencevietnam/images/gallery/thumbnails/tim-lai-chinh-minh-2015-08-th.jpg" class="img-responsive">
                   </a>
 
-                  <div data-toggle="lightbox" data-gallery="multiimages" data-remote="./images/gallery/images/tim-lai-chinh-minh-2015-09.jpg" data-title=""></div>
-                  <div data-toggle="lightbox" data-gallery="multiimages" data-remote="./images/gallery/images/tim-lai-chinh-minh-2015-10.jpg" data-title=""></div>
+                  <div data-toggle="lightbox" data-gallery="multiimages" data-remote="http://kong.vn/essencevietnam/images/gallery/images/tim-lai-chinh-minh-2015-09.jpg" data-title=""></div>
+                  <div data-toggle="lightbox" data-gallery="multiimages" data-remote="http://kong.vn/essencevietnam/images/gallery/images/tim-lai-chinh-minh-2015-10.jpg" data-title=""></div>
               
               </div>
 
@@ -494,7 +617,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
   </div>
     <div class="row">
         <div class="col-md-12">
-            <img src="images/books_new.jpg" class="img-responsive">
+            <img src="http://kong.vn/essencevietnam/images/books_new.jpg" class="img-responsive">
         </div>
         <!-- <div class="col-md-4">
               <img src="images/chi_thao_va_sach.jpg" class="img-responsive">
@@ -514,7 +637,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
 <br/>
     <section>
       <div>
-        <img class="center-block img-responsive" src="images/candle.png"/>
+        <img class="center-block img-responsive" src="http://kong.vn/essencevietnam/images/candle.png"/>
       </div>
       <br/>
       <div class="container text-center">
@@ -539,15 +662,14 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
     </section> -->
 
 
-    <div class="container">
+<!--     <div class="container">
       <div class="col-md-10 col-md-offset-1 very-emphasize-color">
       <p><span class="h2">Liên hệ </span> <span class="h1"> 0973 717 423</span><p>
           <p class = "pull-right" style="font-size: 24px;">hoặc vietnamessence@gmail.com để đăng ký khóa học ngay hôm nay!</p>
       </div>
 
-      <!-- <p><span class="h2">Liên hệ </span> <span class="h1"> 0973 717 423</span> <span style="font-size: 24px;">(Hà Nội)</span><p>
-          <p class = "pull-right" style="font-size: 24px;">hoặc <span class="h1"> 0937 612 666</span> (Hồ Chí Minh) <strong>để đăng ký khóa học ngay hôm nay!</strong></p> -->
-    </div>
+      
+    </div> -->
     <br/>
 
     <section style="background-color:#b4c933;">
@@ -565,13 +687,12 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
 
         <br/>
         <p>
-        <strong>Ngày: 08, 09, 10/01/2016 tại HÀ NỘI</strong><br/>
-        <large>Hotline: 0973.717.423 (Ms Hà)</large><br/>
-        <strong>Ngày: 15, 16, 17/01/2016 tại TP HỒ CHÍ MINH</strong> <br/>
-        Hotline: 0937.612.666 (Ms Trang) - 0939.388.678 (Ms Ánh Trang)<br/>
+        <p><strong> - Ngày: 08, 09, 10/01/2016 tại HÀ NỘI</strong></p>
+        <p style="font-size:22px;">Hotline: <strong>0973 717 423</strong> (Ms Hà)</p>
+        <p><strong> - Ngày: 15, 16, 17/01/2016 tại TP HỒ CHÍ MINH</strong> </p>
+        <p style="font-size:22px;">Hotline: <strong>0937.612.666</strong> (Ms Trang) - <strong>0939.388.678</strong> (Ms Ánh Trang)</p>
+        <!-- <p><small>*Địa điểm chính xác sẽ được thông báo sau khi đăng ký thành công</small></p> -->
         <br/>
-
-        
         <p><em>Vì số lượng học viên được giới hạn để chương trình đạt hiệu quả tốt nhất, nên bạn hãy chọn và quyết định ngay lập tức.</em></p>
 
 
@@ -590,7 +711,7 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
         <br/>
         <div>
         <div class="col">
-          <img src="img/logo.png">
+          <img src="http://kong.vn/essencevietnam/img/logo.png">
         </div>
         <div class="col">
           <h4 class="text-yellow">ESSENCE VIETNAM</h4>
@@ -602,24 +723,24 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
           <p> - Hồ Chí Minh: 20D Trương Quốc Dung, Phú Nhuận.</p>
 
           <strong>Essence Process trên Toàn cầu<strong><br/>
-          <a href="http://www.essence-process.com/"><img src="img/flags/United-kingdom-flag-48.png" alt="UK" title="UK"></a>
-          <a href="https://www.facebook.com/EssenceFoundationRomania"><img src="img/flags/Romania-flag-48.png" alt="Romania"  title="Romania"></a>
-          <a href="https://www.facebook.com/EssenceFoundationHungary"><img src="img/flags/Hungary-flag-48.png"  alt="Hungary"  title="Hungary"></a>
-          <a href="https://www.facebook.com/%D0%A4%D0%BE%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F-%D0%A1%D1%8A%D1%89%D0%BD%D0%BE%D1%81%D1%82-158515210874022/"  alt="Bulgaria"  title="Bulgaria"><img src="img/flags/Bulgaria-flag-48.png"></a>
-          <a href="https://www.facebook.com/congdongessencevietnam/"  alt="Vietnam"  title="Vietnam"><img src="img/flags/Vietnam-flag-48.png"></a>
-          <a href="https://www.facebook.com/essence.spain"  alt="Spain"  title="Spain"><img src="img/flags/Spain-flag-48.png"></a>
-          <a href="https://www.facebook.com/Essence-Process-Germany-937723349600135/"  alt="Germany"  title="Germany"><img src="img/flags/Germany-flag-48.png"></a>
-          <a href="https://www.facebook.com/EssenceFoundationDubai"  alt="UAE"  title="UAE"><img src="img/flags/United-arab-emirates-48.png"></a>
-          <a href="https://www.facebook.com/EssenceProcessAustria"  alt="Austria"  title="Austria"><img src="img/flags/Austria-flag-48.png"></a>
-          <a href="https://www.facebook.com/groups/EssenceFoundationPortugal/"  alt="Portugal"  title="Portugal"><img src="img/flags/Portugal-flag-48.png"></a>
-          <a href="http://www.essence-process.com/"  alt="Serbia"  title="Serbia"><img src="img/flags/Serbia-flag-48.png"></a>
-          <a href="http://www.essence-process.com/"  alt="Finland"  title="Finland"><img src="img/flags/Finland-flag-48.png"></a>
-          <a href="http://www.essence-process.com/"  alt="Ireland"  title="Ireland"><img src="img/flags/Ireland-flag-48.png"></a>
-          <a href="http://www.essence-process.com/"  alt="USA"  title="USA"><img src="img/flags/United-states-flag-48.png"></a>
-          <a href="http://www.essence-process.com/" alt="Norway"  title="Norway"><img src="img/flags/Norway-flag-48.png"></a>
-          <a href="http://www.essence-process.com/" alt="Italy"  title="Italy"><img src="img/flags/Italy-flag-48.png"></a>
-          <a href="http://www.essence-process.com/" alt="China"  title="China"><img src="img/flags/China-flag-48.png"></a>
-          <a href="http://www.essence-process.com/" alt="Slovakia"  title="Slovakia"><img src="img/flags/Slovakia-flag-48.png"></a>
+          <a target="_blank" href ="http://www.essence-process.com/"><img src="http://kong.vn/essencevietnam/img/flags/United-kingdom-flag-48.png" alt="UK" title="UK"></a>
+          <a target="_blank" href ="https://www.facebook.com/EssenceFoundationRomania"><img src="http://kong.vn/essencevietnam/img/flags/Romania-flag-48.png" alt="Romania"  title="Romania"></a>
+          <a target="_blank" href ="https://www.facebook.com/EssenceFoundationHungary"><img src="http://kong.vn/essencevietnam/img/flags/Hungary-flag-48.png"  alt="Hungary"  title="Hungary"></a>
+          <a target="_blank" href ="https://www.facebook.com/%D0%A4%D0%BE%D0%BD%D0%B4%D0%B0%D1%86%D0%B8%D1%8F-%D0%A1%D1%8A%D1%89%D0%BD%D0%BE%D1%81%D1%82-158515210874022/"  alt="Bulgaria"  title="Bulgaria"><img src="http://kong.vn/essencevietnam/img/flags/Bulgaria-flag-48.png"></a>
+          <a target="_blank" href ="https://www.facebook.com/congdongessencevietnam/"  alt="Vietnam"  title="Vietnam"><img src="http://kong.vn/essencevietnam/img/flags/Vietnam-flag-48.png"></a>
+          <a target="_blank" href ="https://www.facebook.com/essence.spain"  alt="Spain"  title="Spain"><img src="http://kong.vn/essencevietnam/img/flags/Spain-flag-48.png"></a>
+          <a target="_blank" href ="https://www.facebook.com/Essence-Process-Germany-937723349600135/"  alt="Germany"  title="Germany"><img src="http://kong.vn/essencevietnam/img/flags/Germany-flag-48.png"></a>
+          <a target="_blank" href ="https://www.facebook.com/EssenceFoundationDubai"  alt="UAE"  title="UAE"><img src="http://kong.vn/essencevietnam/img/flags/United-arab-emirates-48.png"></a>
+          <a target="_blank" href ="https://www.facebook.com/EssenceProcessAustria"  alt="Austria"  title="Austria"><img src="http://kong.vn/essencevietnam/img/flags/Austria-flag-48.png"></a>
+          <a target="_blank" href ="https://www.facebook.com/groups/EssenceFoundationPortugal/"  alt="Portugal"  title="Portugal"><img src="http://kong.vn/essencevietnam/img/flags/Portugal-flag-48.png"></a>
+          <a target="_blank" href ="http://www.essence-process.com/"  alt="Serbia"  title="Serbia"><img src="http://kong.vn/essencevietnam/img/flags/Serbia-flag-48.png"></a>
+          <a target="_blank" href ="http://www.essence-process.com/"  alt="Finland"  title="Finland"><img src="http://kong.vn/essencevietnam/img/flags/Finland-flag-48.png"></a>
+          <a target="_blank" href ="http://www.essence-process.com/"  alt="Ireland"  title="Ireland"><img src="http://kong.vn/essencevietnam/img/flags/Ireland-flag-48.png"></a>
+          <a target="_blank" href ="http://www.essence-process.com/"  alt="USA"  title="USA"><img src="http://kong.vn/essencevietnam/img/flags/United-states-flag-48.png"></a>
+          <a target="_blank" href ="http://www.essence-process.com/" alt="Norway"  title="Norway"><img src="http://kong.vn/essencevietnam/img/flags/Norway-flag-48.png"></a>
+          <a target="_blank" href ="http://www.essence-process.com/" alt="Italy"  title="Italy"><img src="http://kong.vn/essencevietnam/img/flags/Italy-flag-48.png"></a>
+          <a target="_blank" href ="http://www.essence-process.com/" alt="China"  title="China"><img src="http://kong.vn/essencevietnam/img/flags/China-flag-48.png"></a>
+          <a target="_blank" href ="http://www.essence-process.com/" alt="Slovakia"  title="Slovakia"><img src="http://kong.vn/essencevietnam/img/flags/Slovakia-flag-48.png"></a>
           <br/>
           <br/>
         </div>
@@ -630,8 +751,8 @@ của <strong>hơn 25,000 học viên trên toàn thế giới</strong>.</p>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/ekko-lightbox.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/3.3.0/ekko-lightbox.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function ($) {
 
